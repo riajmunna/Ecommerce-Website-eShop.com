@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>eShop</title>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="img-navbar img-fluid" src="./assets/img/Eshop.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto ">
+           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="view_profile.php">My Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="chatbot.php">HELP</a></li>
+                    <li class="nav-item"><a class="nav-link" id="myBtn" >
+                      <i class="fas fa-lg fa-shopping-cart"></i>
+                    </a></li>
+
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="container my-5">
+                <div class="overflow-auto container" style='width: 100%'>
+                  <table class="table table-hover table-middle table-divider">
+                    <thead>
+                      <tr>
+                        <th class="table-shrink"></th>
+                        <th class="table-small sty">
+                          <h3>ITEM</h3>
+                        </th>
+                        <th class="table-small"></th>
+                        <th class="width-small sty">
+                          <h3>PRICE</h3>
+                        </th>
+                        <th class="table-shrink uk-text-small sty">
+                          <h3>QUANTITY</h3>
+                        </th>
+                        <th class="table-shrink uk-text-small sty">
+                          <h3>TOTAL</h3>
+                        </th>
+
+                      </tr>
+                    </thead>
+                    <tr>
+
+                      <td class="table-link">
+                        <h3 class="item-name"><strong>Grand-Total</strong></h3>
+                      </td>
+                      <td class="text-truncate">
+                        <h3></h3>
+                      </td>
+                      <td class="text-truncate">
+                        <h3></h3>
+                      </td>
+                      <td class="text-truncate grand-total">
+                        <h3><strong>$0</strong></h3>
+                      </td>
+
+                    </tr>
+                  </table>
+                  <a class="nav-link" href="./checkout.php">Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    </div>
+    </ul>
+    <ul>
+
+    </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Hero  -->
+  <div class="background">
+
+  </div>
+  <section class="container hero">
+    <div class="row mw-100">
+      <div class="col-lg-4 col-md-4 col-sm-12 text  ">
+        <h2 class="">FOR ALL YOUR <span class="high">NEEDS </span></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae molestiae iure quos obcaecati
+          recusandae corrupti laudantium aliquid tempora cumque perferendis.</p>
+        <div class="">
+          <button type="button" class="btn button">Blah</button>
+          <button type="button" class="btn button">BLah!</button>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 ">
+        <img class="img-fluid" src="./assets/img/DrawKit-Vector-Illustration-ecommerce-01 1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted by -->
+  <div class="trusted">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 client">
+          <h1> Trusted by over<span class="high"> 25,00 </span>Clients</h1>
+        </div>
+        <div class="col-4 ratings">
+          <h1 class="product-rating high">4.6</h1>
+          <div class="stars"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="rating-text"> <span>460 ratings & 152 reviews</span> </div>
+        </div>
+        <div class="col-4 sale">
+          <h1 class="high">300k+</h2>
+            <h2>Product sale over year</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+
+  <div class="container about" id="about">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h1 class="col-5">About<span class="high"> Us</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero sequi error. Doloremque velit
+          quae reprehenderit, optio, illum voluptatibus rerum cupiditate iste incidunt blanditiis amet.
+          Voluptate blanditiis sit at quod, vero accusamus quisquam nisi optio pariatur? Nemo perspiciatis
+          quaerat totam consequuntur ex ipsa, numquam deleniti, repellendus, minima ad beatae soluta!
+          Consequuntur aperiam nostrum magnam aliquid praesentium, totam non neque iusto.</p>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="./assets/img/Frame 1.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- CArd -->
+
+  <!-- Footer -->
+  <footer class="bg-white">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./assets/img/Eshop.png" alt="" width="180" class="mb-3">
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt.</p>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                  class="fa fa-pinterest"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+         <p class="text-muted mb-0 py-2">© 2021 All rights reserved. develop by Riaj, Anando, Azharul</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.js"></script>
+
+</body>
+
+</html>
